@@ -65,7 +65,7 @@ function App() {
       <ToastContainer />
       <div className='w:[100vw] md:w-[60vw] md:p-0 p-5 mx-auto flex flex-col items-center'>
         <div className='font-bold text-center text-5xl md:text-4xl my-7'>
-          Password <span className='text-green-300 text-4xl'>Operator</span>
+          Password <span className='text-green-300 md:text-4xl'>Operator</span>
         </div>
         <div className='w-full py-5 flex flex-col gap-5'>
           <input ref={ref1} onChange={handlechange} className='w-full border px-4 py-2 border-green-300 rounded-full' placeholder='Enter the name of website' type="text" name="web_name" />
